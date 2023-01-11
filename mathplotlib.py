@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 slices = [2,2,7,7]
-Nclass = ['ss1','ss2','jss1','jss2']
+Nclass = ['ss3','ss2','jss1','jss2']
 cols = ['c','m','r','b']
 
 plt.pie(slices,

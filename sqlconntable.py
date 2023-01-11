@@ -7,7 +7,7 @@ cursor = connection.cursor()
 cursor.execute('DROP TABLE IF EXISTS table2;')
 
 cursor.execute('''
-  CREATE TABLE table2 (
+  CREATE TABLE table7 (
     id INTEGER PRIMARY KEY,
     completed BOOLEAN NOT NULL DEFAULT False
   );

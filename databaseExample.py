@@ -6,7 +6,7 @@ cursor = connection.cursor()
 #example://user:193752
 
 cursor.execute("""
-    CREATE TABLE table2 (
+    CREATE TABLE table5 (
         id INTEGER PRIMARY KEY,
         completed BOOLEAN NOT NULL DEFAULT False
     );
