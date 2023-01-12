@@ -33,7 +33,7 @@ while True:
         continue
     
     if guess_num == random_num:
-        print('You got it right!')
+        print('Correct, You got it right!')
         break
 
     elif guess_num > random_num:
