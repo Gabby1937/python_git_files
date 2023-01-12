@@ -8,6 +8,7 @@ print("""Select any of the following:
 2. Movies
 3. Songs
 4. Books
+5. Swim
 """)
 def selection():
     select = input('Enter your choice: ')
