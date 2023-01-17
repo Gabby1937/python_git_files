@@ -10,3 +10,7 @@ TWITTER_URL = 'https://api.twitter.com/1.1/friends/list.json'
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
+
+while True:
+    print('')
+    acct = input('Enter Twitter Account:')
