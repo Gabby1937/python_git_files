@@ -17,3 +17,10 @@ while True:
     if (len(acct) < 1): break
     url = twurl.augment(TWITTER_URL,
                         {'screen_name': acct, 'count': '5'})
+    print('Retrieving', url)
+    connection = urllib.request.urlopen(url, context=ctx)
+    data = connection.read().decode()
+    js = json.loads(data)
+    print(json.dumps(js, indent=2))
+    headers = dict(connection.getheaders())
+    print('Remaining', headers['x-rate-limit-remaining'])
