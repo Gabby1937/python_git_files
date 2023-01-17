@@ -14,3 +14,6 @@ ctx.verify_mode = ssl.CERT_NONE
 while True:
     print('')
     acct = input('Enter Twitter Account:')
+    if (len(acct) < 1): break
+    url = twurl.augment(TWITTER_URL,
+                        {'screen_name': acct, 'count': '5'})
