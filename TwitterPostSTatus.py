@@ -24,3 +24,10 @@ while True:
     print(json.dumps(js, indent=2))
     headers = dict(connection.getheaders())
     print('Remaining', headers['x-rate-limit-remaining'])
+    for u in js['users']:
+        print(u['screen_name'])
+        if 'status' not in u:
+            print(' * No status found')
+            continue
+        s = u['status']['text']
+        print(' ', s[:50])
