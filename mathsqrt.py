@@ -21,3 +21,8 @@ def my_sqrt(a):
 
 diff = my_sqrt(a) - math.sqrt(a)
 
+def test_sqrt(a):
+    while a < 27:
+        a=a+1
+        print('a', '=', a, '|', 'my_sqrt(a)', '=', my_sqrt(a), '|', 'math.sqrt(a)', '=', math.sqrt(a), '|', "diff", '=', diff)
+test_sqrt(a)
