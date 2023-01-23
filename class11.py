@@ -42,3 +42,17 @@ if n!=0:
     
 for i in range(1, 100, 2):
     print(i)
+
+
+import time
+x = int(input())
+
+while x > 0:
+    x = x - 1
+    if x % 2 == 0:
+        x = x * 3
+    else:
+        x = x // 2
+    time.sleep(0.5)
+    print(x)
+print("end")
