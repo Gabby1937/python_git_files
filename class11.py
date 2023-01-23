@@ -38,3 +38,7 @@ if n!=0:
     x = (c*e - b*f)/n
     y = (a*f - c*d)/n
     print('{:.3f} {:3f}'.format(x+0,y+0))
+    
+    
+for i in range(1, 100, 2):
+    print(i)
