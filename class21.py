@@ -26,3 +26,6 @@ while count < 100:
     if count == 50:
         print("Sorry there was a break in transaction was denied")
         break
+
+for things in range(5, 50, 5):
+    print(things)
