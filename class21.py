@@ -29,3 +29,10 @@ while count < 100:
 
 for things in range(5, 50, 5):
     print(things)
+    
+    
+mart_list = "nose mask", "spagg", "pepper", "meat balls", "tomatoes", "indomie", "onions", "rice", "laptop", "beans", "playstation"
+
+for food in mart_list:
+    time.sleep(2)
+    print("Buy", food)
