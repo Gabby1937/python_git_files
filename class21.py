@@ -16,3 +16,13 @@ while num > 0:
     if num == 1000000000000:
         break
     
+    
+count = 0
+
+while count < 100:
+    time.sleep(1)
+    print("get the number ", count)
+    count = count + 10
+    if count == 50:
+        print("Sorry there was a break in transaction was denied")
+        break
