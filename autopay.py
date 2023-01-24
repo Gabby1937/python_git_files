@@ -16,6 +16,15 @@
 
 
 def computepay(h, r):
+    if h <= 40:
+        x = h * r
+        #print("Pay: $", x)
+        return x
+    elif h > 40:
+       reg = h * r
+       ovt = (h - 40) * (r * 0.5)
+       x = reg + ovt
+       #print("Pay: $", x)
     return x
 
 h = float(input("Enter hours worked: "))
