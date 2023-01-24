@@ -12,3 +12,11 @@
 #error checking the user input unless you want
 #to - you can assume the user types numbers properly.
 #Do not name your variable sum or use the sum() function.
+
+
+
+def computepay(h, r):
+    return x
+
+h = float(input("Enter hours worked: "))
+r = float(input("Enter rate of pay: "))
