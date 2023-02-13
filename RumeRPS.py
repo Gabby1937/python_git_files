@@ -12,3 +12,18 @@ def grace():
       
       jessica = input("choose an option ")
       cp = random.choice(words)
+      if jessica.lower() == 'r':
+            print("cp picks", cp)
+            
+            
+      elif jessica == "s":
+            print("you:scissors")    
+            jessica = "scissors"
+        
+            
+      elif jessica == "p":
+            print("you:paper")    
+            jessica = "paper"
+                      
+      else:
+            ("wrong input try again")   
