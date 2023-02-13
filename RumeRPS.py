@@ -1,8 +1,11 @@
-import random
+import random   # imported random library to help the code 
 
+# Creates options for the game
 words = ["rock", "paper","scissor"]
 
+# Creates a function for the game.
 def grace():
+    # Displays options for the users
       print("""
             select any of the options:
             R for rock
@@ -10,8 +13,11 @@ def grace():
             S for scissors
             """)
       
+      # recieves user's choice
       jessica = input("choose an option ")
+      # computer randomly picks option
       cp = random.choice(words)
+      # computer options for rock
       if jessica.lower() == 'r':
             print("cp picks", cp)
             if cp == 'rock':
@@ -29,7 +35,7 @@ def grace():
                   print("paper covers rock")
                   print("you lost")
             
-            
+    # computer options for scissors
       elif jessica == "s":
             print("you:scissors")    
             jessica = "scissors"
@@ -46,7 +52,7 @@ def grace():
                   print("its a draw")
             
         
-            
+    # computer options for paper
       elif jessica == "p":
             print("you:paper")    
             jessica = "paper"
@@ -61,8 +67,9 @@ def grace():
                   print("cp:scissors")
                   print("scissors cuts paper")
                   print("you lose")
-                      
+    # just incase the user type something wrong.
       else:
             ("wrong input try again")   
             
+# Calling the function          
 grace()
