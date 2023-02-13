@@ -59,8 +59,10 @@ def grace():
                   print("you win")      
             if cp == "scissors":
                   print("cp:scissors")
-                  print("iscissors cuts paper")
+                  print("scissors cuts paper")
                   print("you lose")
                       
       else:
             ("wrong input try again")   
+            
+grace()
