@@ -14,11 +14,26 @@ def grace():
       cp = random.choice(words)
       if jessica.lower() == 'r':
             print("cp picks", cp)
+            if cp == 'rock':
+                  print("jessica: rock")
+                  print('cp: rock')
+                  print("it's a draw")
+            if cp == "scissors":
+                  print("jessica: rock")
+                  print('cp: scissors')
+                  print("rock smashes scissors")
+                  print("you won!!")
+            elif cp == "paper": 
+                  print("jessica: rock") 
+                  print("cp: paper") 
+                  print("paper covers rock")
+                  print("you lost")
             
             
       elif jessica == "s":
             print("you:scissors")    
             jessica = "scissors"
+            
         
             
       elif jessica == "p":
