@@ -9,3 +9,6 @@ def grace():
             P for paper
             S for scissors
             """)
+      
+      jessica = input("choose an option ")
+      cp = random.choice(words)
