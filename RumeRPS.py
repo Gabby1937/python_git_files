@@ -33,6 +33,17 @@ def grace():
       elif jessica == "s":
             print("you:scissors")    
             jessica = "scissors"
+            if cp == "paper":
+                  print("cp:paper")
+                  print("scissors cuts paper")
+                  print("you win")
+            if cp == "rock":
+                  print("cp:rock")
+                  print("rock smashes scissors")
+                  print("you lose")      
+            if cp == "scissors":
+                  print("cp:scissors")
+                  print("its a draw")
             
         
             
